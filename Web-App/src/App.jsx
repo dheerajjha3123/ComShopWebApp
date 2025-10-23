@@ -19,7 +19,7 @@ function App() {
     <div>
       <NavBar/>   
       <Outlet/>   
-      <HeroSection/>
+      <HeroSection />
       <ProductSection/>
       <ServicesSection/>
       <WorkPage/>
@@ -28,7 +28,7 @@ function App() {
       <TeamPages/>
       <ContactPage/>
       <Footer/>
-      <ContactUs/>
+    
       </div>
     
   )
