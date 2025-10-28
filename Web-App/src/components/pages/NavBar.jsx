@@ -11,9 +11,9 @@ const NavBar = () => {
         <div className="flex items-center justify-between">
           <a href="#">
             <img
-              src="https://merakiui.com/images/full-logo.svg"
+              src="/Logo.png"
               alt=""
-              className="w-auto h-6 sm:h-7"
+              className="w-15 h-15 sm:h-8"
             />
           </a>
           <div className="flex lg:hidden">
@@ -38,7 +38,7 @@ const NavBar = () => {
           `}
         >
           <div className="flex flex-col md:flex-row md:mx-6">
-            {['Home', 'Shop'].map((item) => (
+            {/* {['Home', ''].map((item) => (
               <a
                 key={item}
                 href="/"
@@ -47,8 +47,29 @@ const NavBar = () => {
                 {item}
               </a>
             ))}
-            
+             */}
             {/* Contact link using Link component */}
+<Link
+              to="/"
+              className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
+            >
+              Home
+            </Link>
+
+            <Link
+              to="#"
+              className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
+            >
+              About Us
+            </Link>
+
+            <Link
+              to="#"
+              className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
+            >
+              Our Services
+            </Link>
+
             <Link
               to="contactUs"
               className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"

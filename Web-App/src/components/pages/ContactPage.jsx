@@ -16,7 +16,7 @@ export default function ContactPage() {
         />
       </div>
       <div className="mx-auto max-w-2xl text-center">
-        <h2 className="text-3xl font-semibold tracking-tight text-balance text-gray-800 dark:text-white sm:text-4xl capitalize">Contact sales</h2>
+        <h2 className="text-3xl font-semibold tracking-tight text-balance dark:text-gray-900 text-gray-800 dark:text-black sm:text-4xl capitalize">Contact sales</h2>
         <p className="mt-2 text-lg/8 text-gray-600">Aute magna irure deserunt veniam aliqua magna enim voluptate.</p>
       </div>
       <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20">

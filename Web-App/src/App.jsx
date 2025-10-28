@@ -11,25 +11,32 @@ import ServicesSection from './components/pages/ServicesSection'
 import TeamPages from './components/pages/TeamPages'
 import { Outlet } from 'react-router-dom'
 import ContactUs from './components/allPages/ContactUs'
+import Home from './components/pages/Home'
 
 function App() {
 
   return (
     
-    <div>
-      <NavBar/>   
-      <Outlet/>   
-      <HeroSection />
-      <ProductSection/>
-      <ServicesSection/>
-      <WorkPage/>
-      <TesTimonial/>
-      <BlogPage/>
-      <TeamPages/>
-      <ContactPage/>
-      <Footer/>
-    
-      </div>
+    // <div>
+    //   <NavBar/>   
+    //   <Outlet/>   
+    //   <HeroSection/>
+    //   <ProductSection/>
+    //   <ServicesSection/>
+    //   <WorkPage/>
+    //   <TesTimonial/>
+    //   <BlogPage/>
+    //   <TeamPages/>
+    //   <ContactPage/>
+    //   <Footer/>
+      
+    //   </div>
+    <>
+      <NavBar />
+      <Outlet/>
+      
+      <Footer />
+    </>
     
   )
 }

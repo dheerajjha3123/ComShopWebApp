@@ -10,6 +10,7 @@
 import { useState } from 'react'
 import { Mail, Phone, Building2 } from 'lucide-react'
 
+
 // Define clear TypeScript interfaces for our data structures.
 // This makes the component more maintainable and self-documenting.
 
@@ -68,6 +69,7 @@ const ContactUs = ({
 //   Use grid layouts for responsiveness and maintain the original design's spacing.
 
   return (
+   
     <section className={`bg-white dark:bg-gray-900 ${className}`}>
       <div className="container px-6 py-12 mx-auto">
         {/* Header Section */}
@@ -128,6 +130,7 @@ const ContactUs = ({
         </div>
       </div>
     </section>
+   
   )
 }
 

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Menu, X, ShoppingCart } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,9 +29,11 @@ const HeroSection = () => {
               Computer Hardware & Networking, CCTV Installation, Laptop Sales & Rental, Firewall Setup, Load Balancing, Graphic cards & More.
             </p>
 
+           <Link to="contact">
             <button className="w-full px-5 py-2 mt-6 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-blue-600 rounded-lg lg:w-auto hover:bg-blue-500 hover:scale-97  focus:outline-none focus:bg-blue-500">
               Contact Us Now!
             </button>
+            </Link>
           </div>
         </div>
 

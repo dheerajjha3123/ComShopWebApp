@@ -28,7 +28,7 @@ const TeamMemberCard = ({
   socialLinks = {},
 }: TeamMemberProps): JSX.Element => {
   return (
-    <div className="px-12 py-8 bg-gray-100 transition-colors duration-300 transform hover:scale-90 inset-shadow-sm inset-shadow-grey-500 cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-500 dark:border-gray-700 dark:hover:border-transparent hover:text-white ">
+    <div className="px-12 py-8 bg-gray-100 dark:bg-gray-900 transition-colors duration-300 transform hover:scale-90 inset-shadow-sm inset-shadow-grey-500 cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-500 dark:border-gray-700 dark:hover:border-transparent hover:text-white ">
       <div className="flex flex-col sm:-mx-4 sm:flex-row ">
         <img
           className="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300"
