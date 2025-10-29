@@ -10,14 +10,15 @@ import ServicesSection from "./components/pages/ServicesSection";
 import TeamPages from "./components/pages/TeamPages";
 import TesTimonial from "./components/pages/TesTimonial";
 import WorkPage from "./components/pages/WorkPage";
-import Home from "./components/pages/Home"; // ✅ Correct import
+import Home from "./components/pages/Home";
+import AboutUs from "./components/allPages/AboutUs";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />, // This includes NavBar + Footer
     children: [
-      { path: "/", element: <Home /> },
+      { path: "", element: <Home /> },
       { path: "blog", element: <BlogPage /> },
       { path: "contact", element: <ContactPage /> },
       { path: "contactUs", element: <ContactUs /> }, // ✅ Keep only this
@@ -26,6 +27,8 @@ const router = createBrowserRouter([
       { path: "team", element: <TeamPages /> },
       { path: "testimonial", element: <TesTimonial /> },
       { path: "work", element: <WorkPage /> },
+      { path: "aboutUs", element: <AboutUs /> },
+
     ],
   },
 ]);

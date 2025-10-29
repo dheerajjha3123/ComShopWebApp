@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Menu, X, ShoppingCart } from 'lucide-react';
+import { Menu, X, ShoppingCart, MessageSquareQuote } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const NavBar = () => {
@@ -9,11 +9,11 @@ const NavBar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white shadow dark:bg-gray-800">
       <div className="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center">
         <div className="flex items-center justify-between">
-          <a href="#">
+          <a href="/">
             <img
               src="/Logo.png"
-              alt=""
-              className="w-15 h-15 sm:h-8"
+              alt="Logo"
+              className="w-17 h-10 sm:h-8"
             />
           </a>
           <div className="flex lg:hidden">
@@ -57,7 +57,7 @@ const NavBar = () => {
             </Link>
 
             <Link
-              to="#"
+              to="/aboutUs"
               className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
             >
               About Us
@@ -82,8 +82,8 @@ const NavBar = () => {
                 href="#"
                 className="relative text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-300"
               >
-                <ShoppingCart className="w-5 h-5" />
-                <span className="absolute top-0 left-0 p-1 text-xs text-white bg-blue-500 rounded-full" />
+                {/* <MessageSquareQuote className="w-5 h-5" />
+                <span className="absolute top-0 left-0 p-1 text-xs text-white bg-blue-500 rounded-full" /> */}
               </a>
             </div>
           </div>

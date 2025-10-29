@@ -62,12 +62,12 @@ const Footer = () => {
         <hr className="my-6 border-gray-200 md:my-10 dark:border-gray-700" />
         
         <div className="flex flex-col items-center justify-between sm:flex-row">
-          <a href="#">
-            <img className="w-25 h-20" src="/logo1.svg" alt="" />
+          <a href="/">
+            <img className="w-17 h-10 sm sm:h-8" src="/Logo.png" alt="Logo" />
           </a>
 
           <p className="mt-4 text-sm text-gray-500 sm:mt-0 dark:text-gray-300">
-            © Copyright 2025. All Rights Reserved.
+            © Tech Nivix 2025. All Rights Reserved.
           </p>
         </div>
       </div>

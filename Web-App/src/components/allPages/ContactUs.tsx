@@ -38,19 +38,19 @@ const defaultContactInfo: ContactItem[] = [
     icon: <Mail className="text-blue-500" />,
     title: 'Email',
     description: 'Our friendly team is here to help.',
-    detail: 'hello@merakiui.com'
+    detail: 'technivix@support.com'
   },
   {
     icon: <Building2 className="text-blue-500" />,
     title: 'Office',
     description: 'Come say hello at our office HQ.',
-    detail: '100 Smith Street Collingwood VIC 3066 AU'
+    detail: 'Noida Sector-62'
   },
   {
     icon: <Phone className="text-blue-500" />,
     title: 'Phone',
     description: 'Mon-Fri from 8am to 5pm.',
-    detail: '+1 (555) 000-0000'
+    detail: '999999999'
   }
 ]
 
@@ -59,7 +59,7 @@ const defaultContactInfo: ContactItem[] = [
 
 const ContactUs = ({
   className = '',
-  mapUrl = 'https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My+Business+Name)&ie=UTF8&t=&z=14&iwloc=B&B&output=embed',
+  mapUrl = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.65926161441!2d77.34579525406262!3d28.631801987832596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce533ba219a59%3A0x6a904f816a8f5ff4!2sA.R.FURNITURE%20%26%20INTERIOR!5e1!3m2!1sen!2sin!4v1761768375334!5m2!1sen!2sin',
   contactInfo = defaultContactInfo
 }: ContactSectionProps) => {
   const [isDarkMode, setIsDarkMode] = useState(false)
@@ -70,14 +70,14 @@ const ContactUs = ({
 
   return (
    
-    <section className={`bg-white dark:bg-gray-900 ${className}`}>
+    <section className={`bg-white dark:bg-gray-900 p-10 ${className}`}>
       <div className="container px-6 py-12 mx-auto">
         {/* Header Section */}
         <div>
-          <p className="font-medium text-blue-500 dark:text-blue-400">Contact us</p>
+          <p className="font-medium text-blue-500 dark:text-blue-400"></p>
 
           <h1 className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">
-            Get in touch
+            Contact Us
           </h1>
 
           <p className="mt-3 text-gray-500 dark:text-gray-400">
