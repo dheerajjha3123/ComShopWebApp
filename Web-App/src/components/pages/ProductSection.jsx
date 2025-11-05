@@ -44,7 +44,7 @@ const services = [
 
 const ProductSection = () => {
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-16 bg-gray-50 p-5 m-5">
       <div className="max-w-6xl mx-auto px-6 text-center">
         <h2 className="text-4xl font-bold text-gray-900 mb-3">
           Reliable Repair Solutions —

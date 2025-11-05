@@ -62,9 +62,20 @@ export default function ContactPage() {
 
   return (
     <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
-<h1 className="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">
-          Contact <span className="text-blue-500">Sales</span>
-        </h1>      <form onSubmit={handleSubmit} className="mx-auto mt-16 max-w-xl sm:mt-20">
+<h1 className="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-black">
+          Contact <span className="text-blue-500 ">Sales</span>
+
+          
+
+          
+        </h1> 
+
+          
+
+        
+        
+        
+        <form onSubmit={handleSubmit} className="mx-auto mt-16 max-w-xl sm:mt-20">
         
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           

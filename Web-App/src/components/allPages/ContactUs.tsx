@@ -70,17 +70,17 @@ const ContactUs = ({
 
   return (
    
-    <section className={`bg-white dark:bg-gray-900 p-10 ${className}`}>
-      <div className="container px-6 py-12 mx-auto">
+    <section className={`bg-white  p-10 ${className}`}>
+      <div className="container px-6 py-12 mx-auto ">
         {/* Header Section */}
         <div>
           <p className="font-medium text-blue-500 dark:text-blue-400"></p>
 
-          <h1 className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">
+          <h1 className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-blue-500">
             Contact Us
           </h1>
 
-          <p className="mt-3 text-gray-500 dark:text-gray-400">
+          <p className="mt-3 text-gray-500 ">
             Our friendly team would love to hear from you.
           </p>
         </div>
@@ -90,23 +90,23 @@ const ContactUs = ({
           {/* Contact Cards */}
           <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-1">
             {contactInfo.map((item, index) => (
-              <div key={index} className="bg-white dark:bg-gray-800 rounded-lg shadow-sm overflow-hidden">
+              <div key={index} className="bg-white  rounded-lg shadow-sm overflow-hidden">
                 <div className="flex items-center justify-center mb-4">
-                  <span className="inline-block p-3 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                  <span className="inline-block p-3 rounded-full bg-blue-100/80 ">
                     {item.icon}
                   </span>
                 </div>
                 
                 <div className="p-6">
-                  <h2 className="text-base font-medium text-gray-800 dark:text-white">
+                  <h2 className="text-base font-medium text-gray-800 ">
                     {item.title}
                   </h2>
                   
-                  <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
+                  <p className="mt-2 text-sm text-gray-500 ">
                     {item.description}
                   </p>
                   
-                  <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">
+                  <p className="mt-2 text-sm text-blue-500 ">
                     {item.detail}
                   </p>
                 </div>
