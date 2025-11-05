@@ -12,6 +12,11 @@ import TesTimonial from "./components/pages/TesTimonial";
 import WorkPage from "./components/pages/WorkPage";
 import Home from "./components/pages/Home";
 import AboutUs from "./components/allPages/AboutUs";
+import SerOsInstallation from "./components/allPages/SerOsInstallation"
+import SerDataRecPage from "./components/allPages/SerDataRecPage"
+import SerComputerRec from "./components/allPages/SerComputerRec"
+import SerHardwareRecPage from "./components/allPages/SerHardwareRecPage"
+import SerVirusRecPage from "./components/allPages/SerVirusRecPage"
 
 const router = createBrowserRouter([
   {
@@ -28,8 +33,18 @@ const router = createBrowserRouter([
       { path: "testimonial", element: <TesTimonial /> },
       { path: "work", element: <WorkPage /> },
       { path: "aboutUs", element: <AboutUs /> },
+      { path: "osInstallation", element: <SerOsInstallation /> },
+      { path: "serdataRec", element: <SerDataRecPage /> },
+      { path: "sercomputerRec", element: <SerComputerRec /> },
+      { path: "serHardware", element: <SerHardwareRecPage /> },
+      { path: "serVirusRec", element: <SerVirusRecPage /> },
+      // { path: "osInstallation", element: <SerOsInstallation /> },
+
+      
+
 
     ],
+    
   },
 ]);
 
