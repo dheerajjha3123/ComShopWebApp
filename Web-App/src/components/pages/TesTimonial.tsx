@@ -96,21 +96,21 @@ const TesTimonial = ({
 
     {/* Show only the current testimonial */}
     <div className="mt-8">
-      <div className="group p-8 bg-gray-100 dark:border-gray-700 transition-colors hover:scale-90  hover:bg-blue-500  rounded-[20px] inset-shadow-grey-500 transition delay-300 duration-400 ease-in-out inset-shadow-sm hover:text-white">
+      <div className="group p-8 bg-gray-100 dark:border-gray-700 transition-colors hover:scale-90  hover:bg-grey-500  rounded-[20px] inset-shadow-grey-500 transition delay-300 duration-400 ease-in-out inset-shadow-sm ">
         <p className="leading-loose transition-colors duration-300">
           {testimonials[currentIndex].text}
         </p>
         <div className="flex items-center mt-8 -mx-2">
           <img
-            className="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 transition-colors duration-300 group-hover:ring-blue-200"
+            className="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 transition-colors duration-300 group-hover:ring-blue-500"
             src={testimonials[currentIndex].image}
             alt={testimonials[currentIndex].name}
           />
           <div className="mx-2">
-            <h1 className="font-semibold transition-colors duration-300 group-hover:text-white">
+            <h1 className="font-semibold transition-colors duration-300 ">
               {testimonials[currentIndex].name}
             </h1>
-            <span className="text-sm transition-colors duration-300 group-hover:text-blue-200">
+            <span className="text-sm transition-colors duration-300 group-hover:text-blue-500">
               {testimonials[currentIndex].title}
             </span>
           </div>
