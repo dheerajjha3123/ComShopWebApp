@@ -63,7 +63,7 @@ const Footer = () => {
         
         <div className="flex flex-col items-center justify-between sm:flex-row">
           <a href="/">
-            <img className="w-17 h-10 sm sm:h-8" src="/Logo.png" alt="Logo" />
+            <img className="w-40 h-15 sm sm:h-10" src="/Logo.png" alt="Logo" />
           </a>
 
           <p className="mt-4 text-sm text-gray-500 sm:mt-0 dark:text-gray-300">

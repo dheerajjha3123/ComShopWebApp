@@ -13,7 +13,7 @@ const NavBar = () => {
             <img
               src="/Logo.png"
               alt="Logo"
-              className="w-17 h-10 sm:h-8"
+              className="w-40 h-15 sm:h-10"
             />
           </a>
           <div className="flex lg:hidden">

@@ -71,7 +71,7 @@ const ContactUs = ({
   return (
    
     <section className={`bg-white  p-10 ${className}`}>
-      <div className="container px-6 py-12 mx-auto ">
+      <div className="container px-6 py-12 mx-auto mt-6 ">
         {/* Header Section */}
         <div>
           <p className="font-medium text-blue-500 dark:text-blue-400"></p>
