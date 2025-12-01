@@ -95,48 +95,47 @@ const TeamMemberCard = ({
 const TeamPages = (): JSX.Element => {
   const teamMembers: TeamMember[] = [
     {
-      name: "Arthur Melo",
-      role: "Design Director",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nesciunt officia aliquam neque optio?",
-      imageUrl: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+      name: "Alex Chen",
+      role: "Chief Technology Officer",
+      description: "Leading our technology vision with over 15 years of experience in enterprise software development and cloud architecture. Passionate about driving innovation and building scalable solutions.",
+      imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
       socialLinks: {
-        github: "https://github.com",
-        facebook: "https://facebook.com",
-        reddit: "https://reddit.com"
-      }
-    },
-    // Add more team members here
-    {
-      name: "Arthur Melo",
-      role: "Design Director",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nesciunt officia aliquam neque optio?",
-      imageUrl: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
-      socialLinks: {
-        github: "https://github.com",
-        facebook: "https://facebook.com",
-        reddit: "https://reddit.com"
+        github: "https://github.com/alexchen",
+        facebook: "https://facebook.com/alexchen",
+        reddit: "https://reddit.com/u/alexchen"
       }
     },
     {
-      name: "Arthur Melo",
-      role: "Design Director",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nesciunt officia aliquam neque optio?",
-      imageUrl: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+      name: "Sarah Johnson",
+      role: "Lead Software Engineer",
+      description: "Full-stack developer specializing in React, Node.js, and cloud technologies. Committed to writing clean, efficient code and mentoring junior developers to reach their full potential.",
+      imageUrl: "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
       socialLinks: {
-        github: "https://github.com",
-        facebook: "https://facebook.com",
-        reddit: "https://reddit.com"
+        github: "https://github.com/sarahjohnson",
+        facebook: "https://facebook.com/sarahjohnson",
+        reddit: "https://reddit.com/u/sarahjohnson"
       }
     },
     {
-      name: "Arthur Melo",
-      role: "Design Director",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nesciunt officia aliquam neque optio?",
-      imageUrl: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+      name: "Michael Rodriguez",
+      role: "Cybersecurity Specialist",
+      description: "Expert in network security, threat analysis, and compliance frameworks. Dedicated to protecting our clients' digital assets through proactive security measures and best practices.",
+      imageUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
       socialLinks: {
-        github: "https://github.com",
-        facebook: "https://facebook.com",
-        reddit: "https://reddit.com"
+        github: "https://github.com/mrodriguez",
+        facebook: "https://facebook.com/mrodriguez",
+        reddit: "https://reddit.com/u/mrodriguez"
+      }
+    },
+    {
+      name: "Emily Davis",
+      role: "UI/UX Designer",
+      description: "Creative designer focused on user-centered design principles. Expert in creating intuitive interfaces that balance aesthetics with functionality across web and mobile platforms.",
+      imageUrl: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+      socialLinks: {
+        github: "https://github.com/emilydavis",
+        facebook: "https://facebook.com/emilydavis",
+        reddit: "https://reddit.com/u/emilydavis"
       }
     },
   ];
@@ -148,7 +147,7 @@ const TeamPages = (): JSX.Element => {
           Our <span className="text-blue-500">Team</span>
         </h1>
         <p className="max-w-2xl mx-auto my-6 text-center text-gray-500 dark:text-gray-300">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo incidunt ex placeat modi magni quia error alias, adipisci rem similique, at omnis eligendi optio eos harum.
+          Meet our talented team of IT professionals dedicated to delivering innovative solutions and exceptional service to our clients. Each member brings unique expertise and passion to drive technological excellence.
         </p>
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-2">
           {teamMembers.map((member, index) => (

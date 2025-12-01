@@ -6,24 +6,24 @@ const FaQPage = () => {
 
   const faqs = [
     {
-      question: 'How i can play for my appoinment ?',
-      answer: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum laboriosam recusandae facere dolorum veniam quia pariatur obcaecati illo ducimus?'
+      question: 'What IT services do you offer?',
+      answer: 'We provide comprehensive IT solutions including cloud computing, cybersecurity, network infrastructure, software development, data analytics, and IT consulting services tailored to meet your business needs.'
     },
     {
-      question: 'Is the cost of the appoinment covered by private health insurance?',
-      answer: 'Answer will go here...'
+      question: 'How do you ensure data security for our business?',
+      answer: 'We implement industry-standard security protocols including encryption, multi-factor authentication, regular security audits, compliance with GDPR and HIPAA standards, and 24/7 monitoring to protect your sensitive data.'
     },
     {
-      question: 'Do i need a referral?',
-      answer: 'Answer will go here...'
+      question: 'What is your typical project timeline?',
+      answer: 'Project timelines vary depending on complexity, but most implementations take 4-12 weeks. We provide detailed project plans with milestones and regular updates to keep you informed throughout the process.'
     },
     {
-      question: 'What are your opening house?',
-      answer: 'Answer will go here...'
+      question: 'Do you provide ongoing support after implementation?',
+      answer: 'Yes, we offer comprehensive post-implementation support including 24/7 technical support, system monitoring, regular maintenance, and training for your team to ensure smooth operations.'
     },
     {
-      question: 'What can i expect at my first consultation?',
-      answer: 'Answer will go here...'
+      question: 'How do you handle data migration?',
+      answer: 'Our data migration process includes thorough planning, data assessment, testing in staging environments, and careful execution with minimal downtime. We ensure data integrity and provide rollback capabilities if needed.'
     }
   ];
 
